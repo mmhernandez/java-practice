@@ -23,15 +23,20 @@ public class Playground {
         // String test = "a";
         // System.out.println(!test.equals("a"));
 
-        String escape_char = "";
-        ArrayList<String> customer_list = new ArrayList<String>();
-        while(!escape_char.equals('q')) {
-            System.out.println("Enter the customer's name: ");
-            customer_list.add(System.console().readLine());
+        // String escape_char = "";
+        // ArrayList<String> customer_list = new ArrayList<String>();
+        // while(!escape_char.equals('q')) {
+        //     System.out.println("Enter the customer's name: ");
+        //     customer_list.add(System.console().readLine());
 
-            System.out.println("Press enter to continue adding customers. Enter q to quit: ");
-            String user_input = System.console().readLine();
-            System.out.println(user_input);
-        }
+        //     System.out.println("Press enter to continue adding customers. Enter q to quit: ");
+        //     String user_input = System.console().readLine();
+        //     System.out.println(user_input);
+        // }
+
+        String account = "CHEcking";
+        // String accountLowerCase = account.toLowerCase();
+        System.out.println(account.toLowerCase());
+
     }
 }
