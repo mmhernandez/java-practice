@@ -20,7 +20,9 @@ public class User {
     
     
 //  SETTERS
-    
+    public void setPin(int pinNum) {
+    	this.pin = pinNum;  	
+    }
     
     
 }
